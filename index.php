@@ -13,6 +13,9 @@ switch ($favcolor) {
         break;
     case "green":
         echo "Your favorite color is green!";
+        break;
+    default:
+        echo "Your favorite color is neither red, blue, nor green!";
     ?>
 <form method="post" action="">
 <input type="text" name="value">
